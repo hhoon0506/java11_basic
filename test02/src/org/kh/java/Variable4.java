@@ -1,0 +1,24 @@
+package org.kh.java;
+
+public class Variable4 {
+
+	public static void main(String[] args) {
+		String name = " \'이희훈\'";
+		short age = 27;
+		float height = 175.6f;
+		double weight = 78.9;
+		char init = 'k' ;
+		
+		System.out.printf("이름 : \""+name+"\"");
+		System.out.printf("%n나이 : %d" ,age);
+		System.out.printf("%n키 : %f", height);
+		/* 이스케이프 문자 
+		 \n : 줄바꿈
+		 \t : 탭
+		 \\ : \를 출력
+		 \" : "를 출력
+		 \' : '를 출력
+		 */
+	}
+
+}

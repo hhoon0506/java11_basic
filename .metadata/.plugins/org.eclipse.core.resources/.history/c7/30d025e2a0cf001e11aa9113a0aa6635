@@ -1,0 +1,12 @@
+package org.kh.java;
+
+public class Variable4 {
+
+	public static void main(String[] args) {
+		String name = "이희훈";
+		short age = 27;
+		float height = 175.6f;
+		double weight = 72.9;
+	}
+
+}
